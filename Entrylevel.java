@@ -8,8 +8,10 @@ public class Entrylevel {
 		cityName();
 		space();
 		jobOccupation();
-		
-		
+		space();
+		videoCall();
+		space();
+		audioCall(); 
 	}
 	
 	public static void namePrint() {
@@ -21,6 +23,12 @@ public class Entrylevel {
 	}
         public static void jobOccupation(){
 		System.out.println("Still Unemployed");
+	}
+	public static void videoCall(){
+		System.out.println("Adding the video call");
+	}
+	public static void audioCall(){
+		System.out.println("Adding the audio call");
 	}
 	
 	public static void space() { 
